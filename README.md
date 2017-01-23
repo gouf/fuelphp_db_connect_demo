@@ -40,3 +40,18 @@ are up to scratch, we will notice you, and will ask you to become a team member.
 * Jelmer Schreuder - Developer ([http://jelmerschreuder.nl/](http://jelmerschreuder.nl/))
 * Phil Sturgeon - Developer ([http://philsturgeon.co.uk](http://philsturgeon.co.uk))
 * Dan Horrigan - Founder, Developer ([http://dhorrigan.com](http://dhorrigan.com))
+
+---
+
+# phpdotenv
+
+Create .env file into project root directory
+
+and set account information like below:
+
+```
+FUEL_DB_DEV_USER=user_name
+FUEL_DB_DEV_PASSWORD=password
+FUEL_DB_PROD_USER=user_name
+FUEL_DB_PROD_PASSWORD=password
+```
