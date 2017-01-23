@@ -10,6 +10,9 @@ require COREPATH.'bootstrap.php';
 // Register the autoloader
 \Autoloader::register();
 
+// Read and set environment variable file(.env) from project root directory
+Config::load('dotenv');
+
 /**
  * Your environment.  Can be set to any of the following:
  *

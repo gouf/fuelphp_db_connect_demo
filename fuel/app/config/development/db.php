@@ -4,11 +4,12 @@
  */
 
 return array(
-	'default' => array(
-		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_dev',
-			'username'   => 'root',
-			'password'   => 'root',
-		),
-	),
+    'default' => array(
+        'connection'  => array(
+            'type' => 'pdo',
+            'dsn'        => 'mysql:host=localhost;dbname=fuel_dev',
+            'username'   => getenv('FUEL_DB_DEV_USER'),
+            'password'   => getenv('FUEL_DB_DEV_PASSWORD'),
+        ),
+    ),
 );
